@@ -1,0 +1,417 @@
+*{
+    margin: 0;
+    padding: 0;
+    transition: all 0.2s ease-in;
+}
+
+body{
+    /* background-color: black; */
+    background-image: url(images/mtc\ img1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.sec1{
+    height: 100vh;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 20px;
+    
+}
+
+header .logo{
+    margin-right: auto;
+    text-align: center;
+    cursor: pointer;
+    font-family: tahoma;
+    font-size: 13px;
+    color: white;
+    margin-top: 30px;
+    
+}
+
+header .logo h3{
+    font-size: 10px;
+}
+
+header .logo:hover{
+   /* font-size: 12.5px; */
+   color: rgb(224, 224, 224);
+ 
+    
+}
+
+header nav{
+    display: flex;
+    text-align: center;
+    margin-right: auto;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+header nav a{
+    color: white;
+    font-family: tahoma;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+header nav #main{
+    display: none;
+}
+
+header nav a:hover{
+    color: rgb(181, 255, 181);
+    text-decoration: underline greenyellow 3px;
+    transition: color 0.2s ease-in;
+}
+
+header .mainpage{
+    margin-top: 30px;
+}
+
+header .mainpage a{
+    font-family: tahoma;
+    font-size: 13px;
+    color: white;
+    
+}
+
+header .mainpage a:hover{
+    color: greenyellow;
+}
+
+
+
+.h1{
+    color: white;
+    font-family: tahoma;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 35px;
+    text-shadow: black 1px 5px 10px ;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    align-self: center;
+    height: 70%;
+}
+
+.first-sec{
+    display: flex;
+    gap: 20px;
+}
+
+.first-sec .supplies, .chart{
+    width: 50%;
+}
+
+.first-sec .supplies{
+    margin-left: 100px;
+}
+
+.first-sec .supplies h2{
+    font-family: tahoma;
+    color: white;
+    margin-top: 40px;
+}
+
+.first-sec .chart{
+    margin-left: 150px;
+}
+
+.first-sec .chart img{
+    height: 350px;
+}
+
+.first-sec .chart img:hover{
+    height: 360px;
+    
+}
+
+.section2{
+    background-image: url(images/mtc\ img\ 2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+}
+
+.section2 .divider{
+    color: white;
+    margin: 20px;
+    border: solid white 2px;
+}
+
+.section2 .side1,.side2{
+    color: white;
+    width: 50%;
+    margin-top: 100px;
+}
+
+.section2 .side1 h2{
+    
+    font-family: tahoma;
+    font-size: 35px;
+    text-align: center;
+}
+
+.section2 .side1 h3{
+    font-family: tahoma;
+    margin-left: 30px;
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+.section2 .side2 h2{
+    
+    font-family: tahoma;
+    font-size: 30px;
+    /* text-align: center; */
+}
+
+.section2 .side2 h3{
+    font-family: tahoma;
+    margin-left: 30px;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+footer{
+    height: 200px;
+    text-align: center;
+}
+
+footer h2{
+    color: white;
+    font-family: tahoma;
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+footer button{
+    background-color: rgba(182, 178, 178, 0.658);
+    color: white;
+    padding: 7px;
+    margin-top: 20px;
+    border-radius: 20px;
+    font-family: tahoma;
+    font-weight: bold;
+    font-size: 20px;
+    width: 100px;
+    cursor: pointer;
+    border: none;
+}
+
+
+footer button:hover{
+    background-color: rgba(182, 178, 178, 0.384);
+}
+
+footer div button{
+    width: 500px;
+    font-size: 30px;
+}
+
+@media (max-width:850px) {
+    header .logo{
+        font-size: 10px;
+        
+    }
+    
+    header .logo h3{
+        font-size: 7px;
+    }
+
+    header nav a{
+        font-size: 13px;
+    }
+
+    header .mainpage a{
+        font-size: 10px;  
+    }
+
+    .h1{
+        font-size: 25px;
+    }
+
+    .first-sec .supplies{
+        margin-left: 50px;
+    }
+
+    .first-sec .supplies h2{
+        font-size: 20px;
+    }
+
+    .first-sec .chart img{
+        height: 250px;
+    }
+    
+    .first-sec .chart img:hover{
+        height: 260px; 
+    }
+
+    .section2 .side1 h2{
+        font-size: 25px;
+    }
+
+    .section2 .side1 h3{
+        font-size: 15px;
+    }
+
+    .section2 .side2 h2{
+        font-size: 20px;
+    }
+    
+    .section2 .side2 h3{
+        font-size: 15px;
+    }
+
+    footer h2{
+        font-size: 20px;
+    }
+
+    footer button{
+        padding: 5px;
+        border-radius: 15px;
+        font-size: 17px;
+        width: 70px;
+    }
+
+    footer div button{
+        width: 400px;
+        font-size: 25px;
+    }
+}
+
+@media (max-width:650px) {
+    header .logo{
+        font-size: 7px;
+    }
+    
+    header .logo h3{
+        font-size: 5px;
+    }
+
+    header nav{
+        margin-right: 0;
+        justify-content: flex-end;
+        gap: 8px;
+    }
+
+    header nav a{
+        font-size: 10px;
+    }
+
+    header nav #main{
+        display: block;
+    }
+
+    header .mainpage a{
+       display: none;  
+    }
+
+    .h1{
+        font-size: 20px;
+    }
+
+    .first-sec{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .first-sec .supplies, .chart{
+        width: 100%;
+        text-align: center;
+    }
+
+    .first-sec .supplies{
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .first-sec .supplies h2{
+        font-size: 15px;
+    }
+
+    .first-sec .chart{
+        margin-left: 10px;
+    }
+
+    .first-sec .chart img{
+        height: 200px;
+ 
+    }
+    
+    .first-sec .chart img:hover{
+        height: 205px; 
+    }
+
+    .section2{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .section2 .side1,.side2{
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .section2 .divider{
+       display: none;
+    }
+
+    .section2 .side1 h2{
+        font-size: 25px;
+    }
+
+    .section2 .side1 h3{
+        font-size: 15px;
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    .section2 .side2 h2{
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .section2 .side2 h3{
+        font-size: 15px;
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    footer h2{
+        font-size: 15px;
+    }
+
+    footer button{
+        padding: 5px;
+        border-radius: 15px;
+        font-size: 15px;
+        width: 70px;
+    }
+
+    footer div button{
+        width: 300px;
+        font-size: 20px;
+    }
+}
